@@ -14,6 +14,7 @@ import Footer from './footer';
  * https://css-tricks.com/couple-takes-sticky-footer/
  */
 const StyledLayout = styled.div`
+  /* Flexbox for the sticky footer */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
